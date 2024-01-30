@@ -17,7 +17,7 @@ r6 = [1..5]
 inc n = n + 1
 
 r7 = map inc [1..3]
-r8 = map (diff 2) [1..3]
+r8 = map (diff 3) [1..3]
 r9 = map sqrt [1..3]
 
 r10 = zip [1..3] (map sqrt [1..3])
